@@ -1,0 +1,26 @@
+{
+    "name": "vscode-eps",
+    "displayName": "vscode-eps",
+    "description": "EPS Language Support",
+    "version": "0.0.1",
+    "publisher": "dbroeglin",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "eps",
+            "aliases": ["Embedded PowerShell", "eps"],
+            "extensions": ["eps"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "eps",
+            "scopeName": "source.eps",
+            "path": "./syntaxes/eps.tmLanguage.json"
+        }]
+    }
+}
