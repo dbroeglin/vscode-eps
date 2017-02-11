@@ -1,6 +1,10 @@
-# vscode-eps README
+# Visual Studio Code Extension for EPS (Embedded PowerShell)
 
-This is the README for your extension "vscode-eps". After writing up a brief description, we recommend including the following sections.
+:warning: This project is only a first shot at implementing a VSCode extension, you should not have any expectation about it. Feedback is very welcome, though! ;-)
+
+This is a Visual Studio Code extension for [EPS](https://github.com/straightdave/eps) (Embedded PowerShell) a templating language for PowerShell.
+
+TODO: everything below needs to be rewritten
 
 ## Features
 
